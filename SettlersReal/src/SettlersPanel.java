@@ -7,7 +7,7 @@ import javax.swing.UIManager;
 public class SettlersPanel extends JPanel {
 	private final int PANEL_WIDTH = 800;
 	private final int PANEL_HEIGHT = 600;
-	private Hex h = new Hex(Hex.Resource.Wood, 400, 400, 50);
+	Board b = new Board(800,600);
 	
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Catan");
@@ -25,7 +25,7 @@ public class SettlersPanel extends JPanel {
 	
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		h.draw(g);
+		b.draw(g);
 	}
 
 }

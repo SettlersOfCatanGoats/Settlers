@@ -53,6 +53,8 @@ public class Player {
 			removeCardOfType(TerrainHex.Resource.Rock);
 			removeCardOfType(TerrainHex.Resource.Wheat);
 			removeCardOfType(TerrainHex.Resource.Sheep);
+			
+			
 			devCards.add(new DevelopmentCard());
 		}
 	}
@@ -98,4 +100,6 @@ public class Player {
 			}
 		}
 	}
+	
+	private 
 }
